@@ -22,7 +22,8 @@ import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
-import com.nihalkonda.cafe.home.HomeActivity;
+import com.nihalkonda.cafe.home.navdr.BaseNavigationActivity;
+import com.nihalkonda.cafe.home.navdr.MapActivity;
 
 import java.util.List;
 
@@ -91,7 +92,7 @@ public class AcquireNeccessaryPermissions extends AppCompatActivity {
     }
 
     private void goToHome() {
-        startActivity(new Intent(this, HomeActivity.class));
+        startActivity(new Intent(this, MapActivity.class));
         finish();
     }
 

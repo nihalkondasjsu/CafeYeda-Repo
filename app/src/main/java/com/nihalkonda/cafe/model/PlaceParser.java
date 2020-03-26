@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class PlaceParser {
 
     public static ArrayList<MyPlace> parsePlaces(String response){
+        System.out.println(response);
         ArrayList<MyPlace> list = new ArrayList<MyPlace>();
 
         try {
