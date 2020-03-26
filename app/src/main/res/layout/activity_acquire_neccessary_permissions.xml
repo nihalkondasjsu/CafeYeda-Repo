@@ -19,13 +19,18 @@
         android:gravity="center"
         android:textSize="30dp"
         android:padding="10dp"
-        android:text="Please wait while we are verifying your device's compatibility."/>
+        android:text="Please wait while we are acquiring neccessary permissions."/>
 
     <Button
         android:id="@+id/try_again"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_refresh_black_18dp"
+        android:drawablePadding="5dp"
         android:text="Try Again"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:textColor="#fff"
+        android:textSize="18sp"
         />
 </LinearLayout>
